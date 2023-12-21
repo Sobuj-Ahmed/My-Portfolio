@@ -1,0 +1,367 @@
+/* font family link */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display&display=swap');
+
+/* COMMON CSS AREA */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* font family link */
+/* common  */
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+
+/* common */
+/* header start */
+header {
+    background-color: #0d2137;
+}
+
+.logo h4 {
+    font-family: "Poppins", sans-serif;
+}
+
+.nav-link {
+    color: #f7d107;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+/* header end */
+/* banner start */
+
+.banner-area {
+    background-color: #4a5764;
+}
+
+.bio-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bio-h1 {
+    font-family: "Roboto Slab", serif;
+    margin: 5px 0 10px;
+    padding: 0px 123px 0px 115px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+}
+
+.bio-h1 span {
+    color: #f7d107;
+}
+
+.bio-h2 {
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.bio-p2 {
+    padding: 0 50px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+}
+
+.bio-img {
+    text-align: center;
+}
+
+.bio-img img {
+    width: 100%;
+}
+
+/* banner end*/
+/* About start */
+.About-area {
+    background-color: #e5e1e0;
+}
+
+.about-heading {
+    color: #f7d107;
+}
+
+.about-details {
+    font-size: 14px;
+}
+
+.about-icon i {
+    margin: 0 5px 14px 0;
+    font-size: 14px;
+}
+
+/* About end */
+
+/* Service start */
+.card {
+    background-color: #a5e4f7;
+    transition: 0.7s;
+}
+
+.card-img-top {
+    width: 140px;
+    height: 140px;
+    margin: 50px auto 0;
+    transition: .7s;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.2);
+    transition: .7s;
+}
+
+.card-text {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.card:hover {
+    background-color: #f5fdd4;
+    box-shadow: 0px 20px 40px rgb(0, 0, 0, 0);
+    transition: 0.7s;
+}
+
+/* portfolio start */
+.portfolio-area {
+    background-color: #0d2137;
+}
+
+.work-img {
+    width: 100%;
+    height: 260px;
+}
+
+.project-name {
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.project-btn {
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+}
+
+.project-btn:hover {
+    background: #f7d107;
+    color: red;
+    transition: 0.5s ease;
+}
+
+/* pagination */
+.page-link {
+    background: transparent;
+    color: white;
+    padding: 10px 20px;
+}
+
+.actived {
+    background: #f7d107;
+    color: white;
+}
+
+.page-link:hover {
+    background: #f7d107;
+    color: white;
+}
+
+/*--------0verlay section----------*/
+
+.main-img {
+    position: relative;
+}
+
+.overlay1 {
+    content: "";
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: yellow;
+    overflow: hidden;
+    visibility: hidden;
+    transition: .5s ease;
+    opacity: 0.3;
+}
+
+.main-img:hover .overlay1 {
+    right: 50%;
+    visibility: visible;
+    transition: .5s ease;
+}
+
+
+.overlay2 {
+    content: "";
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: green;
+    overflow: hidden;
+    visibility: hidden;
+    transition: .5s ease;
+    opacity: 0.3;
+}
+
+.main-img:hover .overlay2 {
+    bottom: 50%;
+    visibility: visible;
+    transition: .5s ease;
+}
+
+
+.overlay3 {
+    content: "";
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: red;
+    overflow: hidden;
+    visibility: hidden;
+    transition: .5s ease;
+    opacity: 0.3;
+}
+
+.main-img:hover .overlay3 {
+    left: 50%;
+    right: 0;
+    visibility: visible;
+    transition: .5s ease;
+}
+
+.overlay4 {
+    content: "";
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: blue;
+    overflow: hidden;
+    visibility: hidden;
+    transition: .5s ease;
+    opacity: 0.3;
+}
+
+.main-img:hover .overlay4 {
+    top: 50%;
+    visibility: visible;
+    transition: .5s ease;
+}
+
+.icon {
+    background: skyblue;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    visibility: hidden;
+}
+
+.main-img:hover .icon {
+    transition: .5s ease;
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+}
+
+/* portfolio ends */
+
+.contact-icon {
+    font-size: 48px;
+}
+
+.contact-details {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contact-form {
+    display: grid;
+    place-items: center;
+
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+}
+
+form input,
+textarea {
+    padding: 15px;
+    width: 95%;
+    border: none;
+    outline: none;
+    background: hsla(260, 100%, 44%, 0.1);
+    margin-bottom: 1rem;
+    color: white;
+}
+
+form input::placeholder,
+textarea::placeholder {
+    color: white;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+.contact-btn {
+    width: 95%;
+    padding: 10px 25px;
+}
+
+/* footer*/
