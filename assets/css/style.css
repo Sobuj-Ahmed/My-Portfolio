@@ -180,6 +180,9 @@ padding: 5px 20px 20px;
 
     /*--skill end--*/
 /* Service start */
+.Service-area{
+    background-color: #4a5764;
+}
 .card {
     background-color: #a5e4f7;
     transition: 0.7s;
