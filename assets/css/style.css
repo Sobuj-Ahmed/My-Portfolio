@@ -165,16 +165,19 @@ padding: 5px 20px 20px;
     font-family: 'Gentium Book Plus', serif;
 }
 .skill-img{
+    width: 250px;
+    height: 100px;
+    margin-bottom: 10px;
     animation: skill 3s infinite ease-out;
     transition: .7s;
 }
 @keyframes skill {
     0%{
-        transform: scale(-1.2) rotate(-45deg);
+        transform: scale(-0);
     }
 
     100%{
-        transform: scale(1.2) rotate(45deg);
+        transform: scale(1.2);
     }
 }
 
