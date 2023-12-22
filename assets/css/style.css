@@ -1,5 +1,9 @@
 /* font family link */
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Lato&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Lato&family=Open+Sans:ital@0;1&family=Yeseva+One&display=swap');
 
 /* COMMON CSS AREA */
 * {
@@ -10,7 +14,8 @@
 }
 
 h2 {
-    font-family: 'Playfair Display', serif;
+   /* font-family: 'Playfair Display', serif;*/
+    font-family: 'Yeseva One', serif;
 }
 
 ul {
@@ -21,6 +26,7 @@ ul {
 
 p {
     margin: 0;
+    font-family: 'Lato', sans-serif;
 }
 
 a {
@@ -47,12 +53,16 @@ header {
     background-color: #0d2137;
 }
 
-.logo h4 {
-    font-family: "Poppins", sans-serif;
+.logo{
+    margin-top: 10px;
+    font-family: 'Yeseva One', serif;
 }
-
+.nav-item{
+    margin: 0 5px;
+}
 .nav-link {
     color: #f7d107;
+    font-family: 'Gentium Book Plus', serif;
     font-size: 18px;
     font-weight: bold;
 }
@@ -60,7 +70,17 @@ header {
 .nav-link:hover {
     color: red;
 }
-
+.navbar-toggler{
+    background: #f7d107;
+    border: none;
+}
+.offcanvas{
+    background-color: #0d2137;
+}
+.close{
+    color: #f7d107;
+    font-size: 32px;
+}
 /* header end */
 /* banner start */
 
@@ -123,6 +143,7 @@ header {
 
 .about-details {
     font-size: 14px;
+    font-family: 'Lato', sans-serif;
 }
 
 .about-icon i {
@@ -131,7 +152,33 @@ header {
 }
 
 /* About end */
+/*---skill start--*/
+.skill-card{
+padding: 5px 20px 20px;
+}
+.card-body h4{
+    margin-bottom: 10px;
+    color: #f7d107;
+    font-family: 'Yeseva One', serif;
+}
+.card-body p{
+    font-family: 'Gentium Book Plus', serif;
+}
+.skill-img{
+    animation: skill 3s infinite ease-out;
+    transition: .7s;
+}
+@keyframes skill {
+    0%{
+        transform: scale(-1.2) rotate(-45deg);
+    }
 
+    100%{
+        transform: scale(1.2) rotate(45deg);
+    }
+}
+
+    /*--skill end--*/
 /* Service start */
 .card {
     background-color: #a5e4f7;
@@ -152,6 +199,7 @@ header {
 
 .card-text {
     font-size: 24px;
+    font-family: 'Gentium Book Plus', serif;
     font-weight: 500;
 }
 
@@ -174,12 +222,14 @@ header {
 .project-name {
     font-size: 24px;
     margin-left: 10px;
+    font-family: 'Gentium Book Plus', serif;
 }
 
 .project-btn {
     text-transform: uppercase;
     color: black;
     font-weight: 600;
+    font-family: 'Gentium Book Plus', serif;
 }
 
 .project-btn:hover {
@@ -354,6 +404,9 @@ form textarea {
 
 .contact-btn {
     padding: 10px 25px;
+}
+.footer-details{
+    font-family: 'Yeseva One', serif;
 }
 
 /* footer*/
