@@ -20,47 +20,61 @@
 
 <!-- header start -->
 <header>
-    <div class="container">
-        <!-- navbar starts -->
-        <nav class="navbar navbar-expand-lg wow fadeInDown">
-            <div class="container-fluid">
-                <!-- logo -->
-                <div class="logo">
-                    <h4 class="text-warning fw-bold text-uppercase">
-                        Sheikh <span class="text-danger">Sobuj</span>
-                    </h4>
-                </div>
-                <!-- logo -->
-                <!-- toggle btn -->
+    <nav class="navbar navbar-expand-lg wow fadeInDown">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <h4 class="logo text-warning fw-bold text-uppercase">
+                    Sheikh <span class="text-danger">Sobuj</span>
+                </h4>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                    aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                 aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title d-flex justify-content-between" id="offcanvasNavbarLabel">
+                        <a class="navbar-brand" href="#">
+                            <h4 class="logo text-warning fw-bold text-uppercase">
+                                Sheikh <span class="text-danger">Sobuj</span>
+                            </h4>
+                        </a>
+                    </h5>
+
+                    <i class="fa-solid fa-xmark close" data-bs-dismiss="offcanvas"></i>
+
+                </div>
+
+                <div class="offcanvas-body">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">About
+                            <a class="nav-link" aria-current="page" href="#">About Me
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Service</a>
+                            <a class="nav-link" aria-current="page" href="#">Technical Skill</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Portfolio</a>
+                            <a class="nav-link" aria-current="page" href="#">My Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Contact</a>
+                            <a class="nav-link" aria-current="page" href="#">My Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Contact Me</a>
                         </li>
                     </ul>
                 </div>
+
             </div>
-            <!-- menu -->
-    </div>
+
+        </div>
     </nav>
     <!-- navbar ends -->
     </div>
@@ -104,8 +118,8 @@
             </div>
             <div class="col-lg-7 wow fadeInUp" data-wow-duration="2s">
                 <div class="About-text mt-5">
-                    <h2 class="text-dark fw-bold text-uppercase fw-bold">About Us</h2>
-                    <div class="about-icon text-warning">
+                    <h2 class="text-warning fw-bold text-uppercase fw-bold">About Me</h2>
+                    <div class="about-icon text-danger">
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
@@ -138,15 +152,70 @@
 </section>
 <!-- About end-->
 <!-- My skills start -->
+
+<!-- My skills end -->
+<!-- My skills start -->
 <section class="skills">
     <div class="container py-5">
         <h2 class="text-warning text-center text-uppercase fw-bold wow fadeInUp" data-wow-duration="2s">
-            Technical Skills
-        </h2>
+            Technical Skills</h2>
+        <div class="row mt-3">
+            <div class="col-md-6 mb-3 wow fadeInUp" data-wow-duration="2s">
+                <div class="skill-card bg-secondary">
+                    <div class="card-img-top">
+                        <img src="./assets/img/html.png" class="skill-img"  style="width: 100px">
+                    </div>
+                    <div class="card-body text-white text-center">
+                        <h4>HyperText Markup Language</h4>
+                        <p>The HyperText Markup Language, or HTML is the standard markup language for documents designed
+                            to be displayed in a web browser</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3 wow fadeInUp" data-wow-duration="2s">
+                <div class="skill-card bg-secondary">
+                    <div class="card-img-top">
+                        <img src="./assets/img/css.png" class="skill-img" alt="" style="width: 100px">
+                    </div>
+                    <div class="card-body text-white text-center">
+                        <h4>Cascading Style Sheets</h4>
+                        <p>ascading Style Sheets is a style sheet language used for describing the presentation of a
+                            document written in a markup language such as HTML</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3 wow fadeInUp" data-wow-duration="2s">
+                <div class="skill-card bg-secondary">
+                    <div class="card-img-top">
+                        <img src="./assets/img/bootstrap.png" class="skill-img" alt="" style="width: 100px">
+                    </div>
+                    <div class="card-body text-white text-center">
+                        <h4>Bootstrap</h4>
+                        <p>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 wow fadeInUp" data-wow-duration="2s">
+                <div class="skill-card bg-secondary">
+                    <div class="card-img-top">
+                        <img src="./assets/img/github.png" class="skill-img" alt="" style="width: 100px">
+                    </div>
+                    <div class="card-body text-white text-center">
+                        <h4>Github</h4>
+                        <p>GitHub is a web-based version control and collaboration platform for software developers. Microsoft, the biggest single contributor to GitHub</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section class="skills">
+    <div class="container py-5">
         <div class="row wow fadeInUp" data-wow-duration="2s">
             <p class="text-danger fw-bold">HTML5</p>
             <div class="progress bg-secondary my-2 p-0" role="progressbar" aria-label="Example with label"
-                 style="height: 50px" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                 style="height: 40px" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                 <div class="progress-bar bg-dark text-warning progress-bar-striped fs-5" style="width: 95%">
                     95%
                 </div>
@@ -155,7 +224,7 @@
         <div class="row wow fadeInUp" data-wow-duration="2s">
             <p class="text-danger fw-bold">CSS3</p>
             <div class="progress bg-secondary my-2 p-0" role="progressbar" aria-label="Example with label"
-                 style="height: 50px" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                 style="height: 40px" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                 <div class="progress-bar bg-dark text-warning progress-bar-striped fs-5" style="width: 85%">
                     85%
                 </div>
@@ -164,18 +233,18 @@
         <div class="row wow fadeInUp" data-wow-duration="2s">
             <p class="text-danger fw-bold">BOOTSTRAP</p>
             <div class="progress bg-secondary my-2 p-0" role="progressbar" aria-label="Example with label"
-                 style="height: 50px" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar bg-dark text-warning progress-bar-striped fs-5" style="width: 80%">
-                    80%
+                 style="height: 40px" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-dark text-warning progress-bar-striped fs-5" style="width: 90%">
+                    90%
                 </div>
             </div>
         </div>
         <div class="row wow fadeInUp" data-wow-duration="2s">
             <p class="text-danger fw-bold">JAVASCRIPT</p>
             <div class="progress bg-secondary my-2 p-0" role="progressbar" aria-label="Example with label"
-                 style="height: 50px" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar bg-dark text-warning progress-bar-striped fs-5" style="width: 25%">
-                    25%
+                 style="height: 40px" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-dark text-warning progress-bar-striped fs-5" style="width: 30%">
+                    30%
                 </div>
             </div>
         </div>
@@ -1128,7 +1197,7 @@
                 <div class="card bg-light border-0">
                     <div class="main-img">
                         <img src="./assets/img/project1.png" class="work-img border-2" alt="webdesign"/>
-                        <a href="https://sobuj-ahmed.github.io/DataTech-Project" class="icon" title="Visit Site">
+                        <a href="https://sobuj-ahmed.github.io/SCEO-Project" class="icon" title="Visit Site">
                             <i class="fa-solid fa-link"></i>
                         </a>
                         <div class="overlay1"></div>
@@ -1139,9 +1208,9 @@
 
                     <hr/>
                     <div class="work-card-body m-2">
-                        <p class="project-name text-danger mb-2"><b>DataTech Project</b></p>
+                        <p class="project-name text-danger mb-2"><b>SCEO Project</b></p>
                         <a class="project-btn btn btn-outline-warning px-5 rounded-4 border-3"
-                           href="https://sobuj-ahmed.github.io/DataTech-Project">Show Details</a>
+                           href="https://sobuj-ahmed.github.io/SCEO-Project">Show Details</a>
                     </div>
                 </div>
             </div>
@@ -1232,7 +1301,7 @@
             <div class="col-lg-4 col-md-6 mb-3 wow fadeInUp" data-wow-duration="2s">
                 <div class="card bg-light border-0">
                     <div class="main-img">
-                        <img src="./assets/img/project7.png" class="work-img border-2" alt="webdesign"/>
+                        <img src="./assets/img/project6.png" class="work-img border-2" alt="webdesign"/>
                         <a href="https://sobuj-ahmed.github.io/Portfolio-Project5" class="icon" title="Visit Site">
                             <i class="fa-solid fa-link"></i>
                         </a>
@@ -1299,10 +1368,12 @@
         <h2 class="text-warning text-center fw-bold text-uppercase fw-bold wow fadeInUp" data-wow-duration="2s">
             Contact Me</h2>
         <div class="row text-center text-light pt-3 p-3">
-             <div class="col-md-6 mb-3">
+            <div class="col-md-6 mb-3">
                 <div class="mail bg-success p-3">
-                    <a class="text-white" href="mailto:sheikh.sobuj95@gmail.com"><i class="fa-solid fa-envelope contact-icon"></i></a>
-                    <p class="contact-details"><a class="text-white" href="mailto:sheikh.sobuj95@gmail.com">sheikh.sobuj95@gmail.com</a></p>
+                    <a class="text-white" href="mailto:sheikh.sobuj95@gmail.com"><i
+                            class="fa-solid fa-envelope contact-icon"></i></a>
+                    <p class="contact-details"><a class="text-white" href="mailto:sheikh.sobuj95@gmail.com">sheikh.sobuj95@gmail.com</a>
+                    </p>
                 </div>
                 <div class="location bg-dark p-3">
                     <i class="fa-solid fa-location-dot contact-icon"></i>
