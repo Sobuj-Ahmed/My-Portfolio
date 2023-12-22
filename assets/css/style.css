@@ -335,7 +335,6 @@ header {
 form input,
 textarea {
     padding: 15px;
-    width: 95%;
     border: none;
     outline: none;
     background: hsla(260, 100%, 44%, 0.1);
@@ -354,7 +353,6 @@ form textarea {
 }
 
 .contact-btn {
-    width: 95%;
     padding: 10px 25px;
 }
 
