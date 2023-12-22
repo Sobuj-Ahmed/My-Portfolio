@@ -326,16 +326,10 @@ header {
     margin: 10px 0;
 }
 
-.contact-form {
-    display: grid;
-    place-items: center;
-
-}
-
 .contact-form form {
     display: flex;
     flex-direction: column;
-    width: 650px;
+    width: 100%;
 }
 
 form input,
