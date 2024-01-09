@@ -20,7 +20,7 @@
 
 <!-- header start -->
 <header>
-    <nav class="navbar navbar-expand-lg wow fadeInDown">
+    <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <h4 class="logo text-warning fw-bold text-uppercase">
@@ -51,23 +51,23 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">About Me
+                            <a class="nav-link" aria-current="page" href="#about">About Me
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Technical Skill</a>
+                            <a class="nav-link" aria-current="page" href="#skill">Technical Skill</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">My Services</a>
+                            <a class="nav-link" aria-current="page" href="#service">My Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">My Works</a>
+                            <a class="nav-link" aria-current="page" href="#works">My Works</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Contact Me</a>
+                            <a class="nav-link" aria-current="page" href="#contact">Contact Me</a>
                         </li>
                     </ul>
                 </div>
@@ -81,7 +81,7 @@
 </header>
 <!-- header end -->
 <!-- banner start -->
-<section class="banner-area">
+<section class="banner-area" id="home">
     <div class="container">
         <div class="row justify-content-center align-items-center py-3">
             <div class="col-lg-6 wow fadeInLeft" data-wow-duration="2s">
@@ -108,7 +108,7 @@
 </section>
 <!-- banner end -->
 <!-- About start-->
-<section class="About-area">
+<section class="About-area" id="about">
     <div class="container pt-5">
         <div class="row">
             <div class="col-lg-5 wow fadeInUp" data-wow-duration="2s">
@@ -411,11 +411,11 @@
 
 <!-- My skills end -->
 <!-- My skills start -->
-<section class="skills">
-    <div class="container py-5">
+<section class="skills" id="skill">
+    <div class="container pt-5">
         <h2 class="text-warning text-center text-uppercase fw-bold wow fadeInUp" data-wow-duration="2s">
             Technical Skills</h2>
-        <div class="row mt-3">
+        <div class="row mt-5">
             <div class="col-md-6 mb-3 wow fadeInUp" data-wow-duration="2s">
                 <div class="card skill-card bg-secondary">
                     <div class="card-img-top d-flex justify-content-center align-items-center">
@@ -465,10 +465,9 @@
                 </div>
             </div>
         </div>
-
     </div>
-</section>
-<section class="skills">
+
+<div class="skills">
     <div class="container py-5">
         <div class="row wow fadeInUp" data-wow-duration="2s">
             <p class="text-danger fw-bold">HTML5</p>
@@ -507,10 +506,11 @@
             </div>
         </div>
     </div>
+</div>
 </section>
 <!-- My skills end -->
 <!-- Service start-->
-<section class="Service-area">
+<section class="Service-area" id="service">
     <div class="container py-5">
         <h2 class="text-warning text-center fw-bold text-uppercase fw-bold wow fadeInUp" data-wow-duration="2s">My
             Service</h2>
@@ -561,7 +561,7 @@
 </section>
 <!-- Service end-->
 <!-- Portfolio start -->
-<section class="portfolio-area">
+<section class="portfolio-area" id="works">
     <div class="container py-3">
         <h2 class="text-center text-warning fw-bold text-uppercase fw-bold my-5
          wow fadeInUp" data-wow-duration="2s">My WorkS</h2>
@@ -1621,7 +1621,7 @@
 <!-- Portfolio end -->
 
 <!-- contact start -->
-<div class="contact-area my-3">
+<div class="contact-area my-3" id="contact">
     <div class="container bg-secondary py-3 wow fadeInUp" data-wow-duration="2s">
         <h2 class="text-warning text-center fw-bold text-uppercase fw-bold wow fadeInUp" data-wow-duration="2s">
             Contact Me</h2>
@@ -1661,7 +1661,7 @@
 </div>
 <!-- contact end -->
 <!-- footer start -->
-<section class="footer-area bg-dark">
+<section class="footer-area bg-dark" id="footer">
     <div class="container text-light py-3 wow fadeInUp" data-wow-duration="2s">
         <div class="row w-50 m-auto">
             <h2 class="text-center text-uppercase fw-bold">
