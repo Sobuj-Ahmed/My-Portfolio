@@ -49,10 +49,14 @@ body {
 
 /* common */
 /* header start */
-header {
+header{
     background-color: #0d2137;
+    margin-bottom: 50px;
 }
-
+.navbar{
+    background-color: #0d2137;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 .logo{
     margin-top: 10px;
     font-family: 'Yeseva One', serif;
